@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Task 2</title>
+    <style>
+      .Vertical {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 150px;
+        background-color: rgb(141, 206, 224);
+      }
+
+      .vertOpt {
+        display: block;
+        color: blue;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      .vertOpt:hover {
+        background-color: rgb(250, 180, 59);
+        color: white;
+      }
+
+      .Horizontal {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        background-color: #dadada;
+      }
+
+      .float {
+        float: left;
+        border-right: 2px solid blue;
+      }
+      .horzOpt {
+        display: block;
+        color: blue;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+
+      .horzOpt:hover {
+        background-color: gray;
+        color: white;
+      }
+      .xyz {
+        display: flex;
+        gap: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="xyz">
+      <div>
+        <p><b>Vertical Navigation Bar</b></p>
+        <ul class="Vertical">
+          <li><a href="" class="vertOpt">Home</a></li>
+          <li><a href="" class="vertOpt">Java</a></li>
+          <li><a href="" class="vertOpt">CSS</a></li>
+          <li><a href="" class="vertOpt">HTML</a></li>
+          <li><a href="" class="vertOpt">Bootstrap</a></li>
+        </ul>
+      </div>
+      <div>
+        <p><b>Horizontal Navigation Bar</b></p>
+        <ul class="Horizontal">
+          <li class="float"><a href="" class="horzOpt">Home</a></li>
+          <li class="float"><a href="" class="horzOpt">Java</a></li>
+          <li class="float"><a href="" class="horzOpt">CSS</a></li>
+          <li class="float"><a href="" class="horzOpt">HTML</a></li>
+          <li class="float"><a href="" class="horzOpt">Bootstrap</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
