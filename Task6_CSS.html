@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Task 6</title>
+    <style>
+      .inputLabel {
+        text-align: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 10pt;
+      }
+
+      .inputField {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        border: 1px solid rgb(200, 200, 200);
+        display: block;
+        padding: 5px;
+        margin-bottom: 20px;
+        width: 30em;
+      }
+
+      .login {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: rgb(73, 144, 73);
+        border: 1px solid rgb(200, 200, 200);
+        width: 31em;
+        padding: 5px;
+        margin-bottom: 20px;
+        cursor: pointer;
+      }
+
+      .rememberMe {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        margin-bottom: 23px;
+      }
+
+      .moreOptions {
+        width: 26em;
+        height: 4e3;
+      }
+
+      .cancel {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: rgb(240, 32, 32);
+        border: 1px solid rgb(200, 200, 200);
+        border-radius: 5px;
+        width: 70px;
+        margin-top: 10px;
+        margin-bottom: 17px;
+        padding: 8px;
+      }
+
+      .forgotPass {
+        float: right;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: 9pt;
+        margin-top: 25px;
+      }
+      .login-img-div {
+        margin-left: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="login-img-div">
+        <img src="/login_img.jpg" height="100px" alt="" />
+      </div>
+      <div>
+        <label for="" class="inputLabel">Username</label>
+        <input type="text" placeholder="Enter Username" class="inputField" />
+      </div>
+
+      <div>
+        <label for="" class="inputLabel">Password</label>
+        <input type="text" placeholder="Enter Password" class="inputField" />
+      </div>
+
+      <input type="button" value="Login" class="login" onclick="" />
+
+      <div><input type="checkbox" class="rememberMe" />Remember me</div>
+
+      <div class="moreOptions">
+        <input type="button" class="cancel" value="Cancel" />
+        <p class="forgotPass">Forgot <a href="">Password?</a></p>
+      </div>
+    </form>
+  </body>
+</html>
