@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <style>
+      table,
+      tr,
+      td,
+      th {
+        margin: auto;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+        border-collapse: collapse;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Task Name</th>
+        <th>Task Link</th>
+      </tr>
+
+      <!--  HTML TASKS -->
+      <tr>
+        <td colspan="2"><b> HTML Tasks </b></td>
+      </tr>
+      <tr>
+        <td>Task 1</td>
+        <td><a href="task1.html">Task 1</a></td>
+      </tr>
+      <tr>
+        <td>Task 2</td>
+        <td><a href="Task2_html.html">Task 2</a></td>
+      </tr>
+      <tr>
+        <td>Task 3</td>
+        <td><a href="Task3_HTML.html">Task 3</a></td>
+      </tr>
+      <tr>
+        <td>Task 4</td>
+        <td><a href="Task4_Html.html">Task 4</a></td>
+      </tr>
+      <tr>
+        <td>Task 5</td>
+        <td><a href="Task5_HTML.html">Task 5</a></td>
+      </tr>
+
+      <!--  CSS TASKS -->
+      <tr>
+        <td colspan="2"><b> CSS Tasks </b></td>
+      </tr>
+      <tr>
+        <td>Task 1</td>
+        <td><a href="Task1_Css.html">Task 1</a></td>
+      </tr>
+      <tr>
+        <td>Task 2</td>
+        <td><a href="Task2_CSS.html">Task 2</a></td>
+      </tr>
+      <tr>
+        <td>Task 3</td>
+        <td><a href="Task3_CSS.html">Task 3</a></td>
+      </tr>
+      <tr>
+        <td>Task 4</td>
+        <td><a href="Task4_CSS.html">Task 4</a></td>
+      </tr>
+      <tr>
+        <td>Task 5</td>
+        <td><a href="Task5_CSS.html">Task 5</a></td>
+      </tr>
+      <tr>
+        <td>Task 6</td>
+        <td><a href="Task6_CSS.html">Task 6</a></td>
+      </tr>
+      <tr>
+        <td>Task 7</td>
+        <td><a href="Task7_CSS.html">Task 7</a></td>
+      </tr>
+    </table>
+  </body>
+</html>
